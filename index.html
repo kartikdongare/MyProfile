@@ -5,27 +5,38 @@
     <title>index Page</title>
     <link rel="shortcut icon" href="download.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
     <style>
-        span {
-            color: rgb(11, 11, 235);
-            background-color: rgb(190, 43, 112);
+        div {
+            color:#3498db;
+            background-color:#34495e;
+            text-align: center;
+            font-family:"Sofia", sans-serif;
+        }
+        #nav_bar,a{
+            font-size:medium;
+            font-weight:15px;
+            text-transform: uppercase;
+            text-align: center;
+            text-decoration:none;
+            font-family:"Sofia", sans-serif;
         }
     </style>
 </head>
 
-<body>
+<body style="background-color: #7f8c8d;">
     <header>
 
-        <h3>My Profile</h3>
-        <span>
+        <h3 style="color: #1D2B64; font-family:Sofia, sans-serif;text-align: center;">My Profile</h3>
+        <div>
             <i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;<b>Kartik Dongare</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <i class="fa fa-mobile" aria-hidden="true"></i>&nbsp;&nbsp;<b>9527398933</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <i class="fa fa-envelope"
                 aria-hidden="true"></i>&nbsp;&nbsp;<b>kartikdongare2000@gmail.com</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-            </span>
+        </div>
     </header>
-    <nav>
+    <nav id="nav_bar">
         <a href="home.html" target="my_frame">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="techStack.html" target="my_frame">TechStack</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href="educationDetails.html" target="my_frame">Education</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -35,7 +46,7 @@
         <a href="other.html" target="my_frame">Other</a>
     </nav>
     <hr>
-    <iframe name="my_frame" src="info.html" width="1000" height="500"></iframe>
+    <iframe name="my_frame" src="info.html" width="1500" height="500" ></iframe>
     <br><br>
     <footer>
         <p>
