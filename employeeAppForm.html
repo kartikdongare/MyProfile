@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Employee Aplication Form</title>
+    <style>
+        label {
+            color: aqua;
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        input[type="text"] {
+            color: azure;
+            background-color: coral;
+            width: 180px;
+            text-transform: uppercase;
+            border-radius: 10px;
+
+        }
+
+        input[type="submit"] {
+            color: rgb(19, 211, 153);
+            background-color: rgb(34, 10, 1);
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+        }
+
+        input[type="reset"] {
+            color: rgb(19, 211, 153);
+            background-color: rgb(34, 10, 1);
+            width: 100px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        input[type="submit"]:hover{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<bodY>
+    <fieldset>
+        <legend>Employee Aplication Form</legend>
+        <form>
+            <table>
+                <tr>
+                    <td><label>Full Name:</label></td>
+                    <td> <input type="text" required autofocus maxlength="20"></td>
+                </tr>
+                <tr>
+                    <td><label>Email Address:</label></td>
+                    <td><input type="email" placeholder="Ex.abc@gmail.com" required></td>
+                </tr>
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password" required></td>
+                </tr>
+                <tr>
+                    <td><label>Contact Number:</label></td>
+                    <td><input type="number" required></td>
+                </tr>
+                <tr>
+                    <td><label>Profile photo:</label></td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth:</label></td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td><input type="radio" name="gender"> <label>Male</label><input type="radio"
+                            name="gender"><label>Female</label><input type="radio" name="gender"><label>Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Marital Status:</label></td>
+                    <td>
+                        <input type="radio" name="Marital Status"><label>Single</label>
+                        <input type="radio" name="Marital Status"><label>couple</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Known Tool And Technology:</label></td>
+                    <td>
+                        <input type="checkbox"><label>Angular</label>
+                        <input type="checkbox"><label>React</label>
+                        <input type="checkbox"><label>Java</label>
+                        <input type="checkbox"><label>python</label>
+                        <input type="checkbox"><label>Database</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Profile:</label></td>
+                    <td>
+                        <select>
+                            <option>UI Developer</option>
+                            <option>Full Stack Developer</option>
+                            <option>Backeend Developer</option>
+                            <option>DeOps Developer</option>
+                            <option>Tester</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Country:</label></td>
+                    <td><input type="text" value="India" readonly></td>
+                </tr>
+                <tr>
+                    <td><label>Present Address:</label></td>
+                    <td> <textarea rows="7" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit">
+                    </td>
+                    <td>
+                        <input type="reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </fieldset>
+</bodY>
+
+</html>

@@ -21,15 +21,26 @@
             text-decoration:none;
             font-family:"Sofia", sans-serif;
         }
-        div i{padding: 20px;;}
-        nav a{ padding: 30px; margin-top: 40px;}
+        .navigation:hover{
+            background-color:rgb(14 116 144);;
+        }
+        div i{padding: 20px;}
+        nav a{ margin-right: 40px;}
+        .myprofile{
+            
+            color:#1D2B64;
+            font-family:Sofia, sans-serif;
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 5px 5px 3px rgb(3, 3, 41);
+        }
     </style>
 </head>
 
 <body style="background-color: #7f8c8d;">
     <header>
 
-        <h3 style="color: #1D2B64; font-family:Sofia, sans-serif;text-align: center; margin-bottom: 20px;">My Profile</h3>
+        <h1 class="myprofile">My Profile</h1>
         <div>
             <i class="fa fa-user" aria-hidden="true"></i><b>Kartik Dongare</b>
             <i class="fa fa-mobile" aria-hidden="true"></i><b>9527398933</b>
@@ -39,13 +50,13 @@
         </div>
     </header>
     <nav id="nav_bar">
-        <a href="home.html" target="my_frame">HOME</a>
-        <a href="techStack.html" target="my_frame">TechStack</a>
-        <a href="educationDetails.html" target="my_frame">Education</a>
-        <a href="project.html" target="my_frame">Project</a>
-        <a href="hobbies.html" target="my_frame">Hobbies</a>
-        <a href="personalDetails.html" target="my_frame">Personal Details</a>
-        <a href="other.html" target="my_frame">Other</a>
+        <a href="home.html" target="my_frame" class="navigation">HOME</a>
+        <a href="techStack.html" target="my_frame" class="navigation">TechStack</a>
+        <a href="educationDetails.html" target="my_frame" class="navigation">Education</a>
+        <a href="project.html" target="my_frame"class="navigation">Project</a>
+        <a href="hobbies.html" target="my_frame" class="navigation">Hobbies</a>
+        <a href="personalDetails.html" target="my_frame" class="navigation">Personal Details</a>
+        <a href="other.html" target="my_frame" class="navigation">Other</a>
     </nav>
     <hr>
     <iframe name="my_frame" src="info.html" width="1500" height="500"></iframe>
